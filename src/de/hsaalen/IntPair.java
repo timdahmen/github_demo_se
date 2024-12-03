@@ -1,5 +1,7 @@
 package de.hsaalen;
 
+
+//Bald ist Pause
 public class IntPair 
 {	
 	public int x;

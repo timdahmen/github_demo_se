@@ -18,17 +18,18 @@ public class SnakeTest
 		assertEquals( coordinate.y, 5 );
 		// this does not belong here
 
-export interface TreeItem {
-  id: string;
-  title: string;
-  type: 'vision' | 'goal';
-  parentId: string | null;
-  createdAt: string;
-  zones: {
-    dialog: string;
-    plan: string;
-  };
-}
+				export interface TreeItem {
+				id: string;
+				title: string;
+				type: 'vision' | 'goal';
+				parentId: string | null;
+				createdAt: string;
+				zones: {
+					dialog: string;
+					plan: string;
+				};
+				}
+				
 		coordinate = snake.position(2);
 		assertEquals( coordinate.x, 3 );
 		assertEquals( coordinate.y, 5 );

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "CompountSafetyInformation",
+  "description": "A description of compount safety",
+  "type": "object",
+  "properties": {
+    "UniqueIdentifier": {
+      "description": "The unique identifier for a compount.",
+      "type": "string"
+    },
+    "Name": {
+      "description": "Name of the compount",
+      "type": "string"
+    },
+    "reference": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+       "page": {
+          "type": "number"
+        },
+        "line": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

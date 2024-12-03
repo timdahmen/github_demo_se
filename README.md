@@ -1,2 +1,6 @@
-# github_demo_se
-github demo for software engineering lecture
+# Java-Snake-Game
+Java Snake game source code
+
+https://zetcode.com/javagames/snake/  
+
+![Snake game screenshot](snake.png)

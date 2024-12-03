@@ -3,6 +3,7 @@ package de.hsaalen;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+// a comment here is missing
 public class SnakeTest 
 {
 	@Test

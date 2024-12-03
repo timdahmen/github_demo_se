@@ -3,7 +3,7 @@ package de.hsaalen;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-// a anvpabhvaohnvpiabpfü
+// a comment here is missing, and I really think this line requires a comment
 public class SnakeTest 
 {
 	@Test

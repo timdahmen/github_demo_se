@@ -45,7 +45,10 @@ public class Snake
 		new_head_position.move( direction );
 		positions.add( 0, new_head_position );
  	}
-	
+
+	 //test12test12
+
+
 	public boolean is_snake_colliding( int board_width_in_tiles, int board_height_in_tiles )
 	{
 		if ( is_colliding_with_itself() )

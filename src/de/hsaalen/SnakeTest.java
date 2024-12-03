@@ -29,6 +29,7 @@ public class SnakeTest
 					plan: string;
 				};
 				}
+				// javascript is not java
 				
 		coordinate = snake.position(2);
 		assertEquals( coordinate.x, 3 );
